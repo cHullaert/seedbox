@@ -11,7 +11,6 @@ while getopts "p:" opt; do
 done
 
 echo "password used: $password"
-
 shift $((OPTIND-1))
 
 echo "launch system update"
