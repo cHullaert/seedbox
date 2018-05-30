@@ -4,3 +4,9 @@
 #download file and execute
 wget -O - https://raw.githubusercontent.com/cHullaert/seedbox/master/transmission-installer.sh | bash -s your_password
 ```
+
+transmission started 
+http://your_ip:9091
+
+download server started 
+http://your_ip
