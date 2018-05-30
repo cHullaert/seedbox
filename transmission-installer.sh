@@ -28,7 +28,7 @@ service nginx stop
 
 echo "download configurations"
 wget -q https://raw.githubusercontent.com/cHullaert/seedbox/master/settings.json -O /etc/transmission-daemon/settings.json
-wget -q https://raw.githubusercontent.com/cHullaert/seedbox/master/default -0 /etc/nginx/sites-available/default
+wget -q https://raw.githubusercontent.com/cHullaert/seedbox/master/default -O /etc/nginx/sites-available/default
 
 sed -i -e "s/\${PASSWORD}/$password/g" /etc/transmission-daemon/settings.json
 
