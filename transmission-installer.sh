@@ -22,6 +22,8 @@ echo "install server"
 apt install transmission-daemon -y
 apt install nginx -y
 
+apt update -y
+
 echo "stop services"
 service transmission-daemon stop
 service nginx stop
