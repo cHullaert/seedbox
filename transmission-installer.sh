@@ -16,7 +16,7 @@ shift $((OPTIND-1))
 
 echo "launch system update"
 apt update -y
-apt upgrade -y
+#apt upgrade -y
 
 echo "install server"
 apt install transmission-daemon -y
