@@ -2,7 +2,7 @@
 
 ```bash
 #download file and execute
-wget -O - https://raw.githubusercontent.com/cHullaert/seedbox/master/transmission-installer.sh | bash -s -p your_password
+wget -O - https://raw.githubusercontent.com/cHullaert/seedbox/master/transmission-installer.sh | bash -s -- -p your_password
 ```
 
 transmission started 
